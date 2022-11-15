@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Rubik 'Times New Roman', Times, serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #1B1B1B;
+  padding: 30px;
+}
+
+.container {
+  max-width: 1302px;
+  width: 100%;
+  background: #1E1E1E;
+  border-radius: 8px;
+  border: 1px solid #252525;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+  color: #D6D6D6;
+}
+
+.calendar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #6C6C6C;
+  border-radius: 6px;
+  padding: 10px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  color: #D6D6D6;
+}
+
+.calendar__text {
+  padding: 0 60px 0 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  /*border: 1px solid #252525;*/
+}
+
+
+.table__cell {
+  height: 48px;
+  text-align: left;
+  width: calc(100% / 6);
+}
+
+.table__cell--head:nth-child(2) {
+  text-align: right;
+}
+
+.table__cell--head:last-child {
+  text-align: right;
+  padding-right: 24px;
+}
+
+
+.table__cell--head {
+  background: #252525;
+  color: #B3B3B3;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+}
+
+.table__cell--head:first-child {
+  padding-left: 24px;
+}
+
+.table__cell--body:last-child {
+  text-align: right;
+  padding-right: 24px;
+}
+
+.table__cell--body:nth-child(2){
+ text-align: right;
+}
+
+.table__cell--body {
+  /*background: #1E1E1E;*/
+  color:#D6D6D6;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+}
+
+.table__row--hover:not(:last-child) {
+  border-bottom: 1px solid #252525;
+}
+
+.table__cell--image {
+  display: flex;
+  align-items: center;
+}
+
+.cell__image {
+  padding-right: 5px;
+}
+
+
+.table__cell--body:first-child {
+  padding-left: 33px;
+}
+
+
+.table__row--hover:hover {
+  background: #3D2C1C;
+}
+
+.table__row--hover:last-child .table__cell--body:last-child {
+  border-radius: 0 0 8px 0;
+}
+
+.table__row--hover:last-child .table__cell--body:first-child {
+  border-radius: 0 0 0 8px;
+}
