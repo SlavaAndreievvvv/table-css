@@ -61,7 +61,6 @@ body {
 .table {
   width: 100%;
   border-collapse: collapse;
-  /*border: 1px solid #252525;*/
 }
 
 
@@ -71,11 +70,11 @@ body {
   width: calc(100% / 6);
 }
 
-.table__cell--head:nth-child(2) {
+.table__cell--right {
   text-align: right;
 }
 
-.table__cell--head:last-child {
+.table__cell--right-padding {
   text-align: right;
   padding-right: 24px;
 }
@@ -90,21 +89,20 @@ body {
   letter-spacing: 0.02em;
 }
 
-.table__cell--head:first-child {
+.table__cell--left {
   padding-left: 24px;
 }
 
-.table__cell--body:last-child {
+.table__cell--body-right {
   text-align: right;
   padding-right: 24px;
 }
 
-.table__cell--body:nth-child(2){
+.table__cell--right {
  text-align: right;
 }
 
 .table__cell--body {
-  /*background: #1E1E1E;*/
   color:#D6D6D6;
   font-weight: 400;
   font-size: 14px;
@@ -112,21 +110,21 @@ body {
   letter-spacing: 0.02em;
 }
 
-.table__row--hover:not(:last-child) {
+.table__row--border {
   border-bottom: 1px solid #252525;
 }
 
-.table__cell--image {
+.status {
   display: flex;
   align-items: center;
 }
 
-.cell__image {
-  padding-right: 5px;
+.status__image {
+  margin-right: 5px;
 }
 
 
-.table__cell--body:first-child {
+.table__cell--body-left{
   padding-left: 33px;
 }
 
@@ -135,10 +133,11 @@ body {
   background: #3D2C1C;
 }
 
-.table__row--hover:last-child .table__cell--body:last-child {
+
+.table__cell--radius-right {
   border-radius: 0 0 8px 0;
 }
 
-.table__row--hover:last-child .table__cell--body:first-child {
+.table__cell--radius-left {
   border-radius: 0 0 0 8px;
 }
