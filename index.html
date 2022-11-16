@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Table</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="title">Orders</h1>
+        <div class="calendar">
+          <img class="calendar__img" src="ImgCalendar.svg" alt="img" />
+          <span class="calendar__text">1 Oct , 2021 - 1 Nov, 2021</span>
+          <img class="calendar__arrow" src="arrow.svg" alt="img" />
+        </div>
+      </div>
+      <table class="table">
+        <thead class="table__head">
+          <tr class="table__row">
+            <th class="table__cell table__cell--head table__cell--left">
+              Number
+            </th>
+            <th class="table__cell table__cell--head table__cell--right">
+              Date
+            </th>
+            <th class="table__cell table__cell--head"></th>
+            <th class="table__cell table__cell--head">Status</th>
+            <th class="table__cell table__cell--head">Customer</th>
+            <th
+              class="table__cell table__cell--head table__cell--right-padding"
+            >
+              Revenue
+            </th>
+          </tr>
+        </thead>
+        <tbody class="table__body">
+          <tr class="table__row table__row--hover table__row--border">
+            <td class="table__cell table__cell--body table__cell--body-left">
+              #1019
+            </td>
+            <td class="table__cell table__cell--body table__cell--right">
+              1 Nov, 14:42, 2021
+            </td>
+            <td class="table__cell table__cell--body"></td>
+            <td class="table__cell table__cell--body">
+              <div class="status">
+                <img class="status__image" src="green.svg" alt="img" />
+                <span class="status__text">paid</span>
+              </div>
+            </td>
+            <td class="table__cell table__cell--body">Bob Jonson</td>
+            <td class="table__cell table__cell--body table__cell--body-right">
+              $ 49.00
+            </td>
+          </tr>
+
+          <tr class="table__row table__row--hover table__row--border">
+            <td class="table__cell table__cell--body table__cell--body-left">
+              #1016
+            </td>
+            <td class="table__cell table__cell--body table__cell--right">
+              30 Oct, 15:02, 2021
+            </td>
+            <td class="table__cell table__cell--body"></td>
+            <td class="table__cell table__cell--body table__cell--image">
+              <div class="status">
+                <img class="status__image" src="green.svg" alt="img" />
+                <span class="status__text">paid</span>
+              </div>
+            </td>
+            <td class="table__cell table__cell--body">Tom Smith</td>
+            <td class="table__cell table__cell--body table__cell--body-right">
+              $ 69.00
+            </td>
+          </tr>
+
+          <tr class="table__row table__row--hover table__row--border">
+            <td class="table__cell table__cell--body table__cell--body-left">
+              #1015
+            </td>
+            <td class="table__cell table__cell--body table__cell--right">
+              29 Oct, 18:30, 2021
+            </td>
+            <td class="table__cell table__cell--body"></td>
+            <td class="table__cell table__cell--body table__cell--image">
+              <div class="status">
+                <img class="status__image" src="yellow.svg" alt="img" />
+                <span class="status__text">pending</span>
+              </div>
+            </td>
+            <td class="table__cell table__cell--body">Andrea Wise</td>
+            <td class="table__cell table__cell--body table__cell--body-right">
+              $ 49.00
+            </td>
+          </tr>
+
+          <tr class="table__row table__row--hover table__row--border">
+            <td class="table__cell table__cell--body table__cell--body-left">
+              #1014
+            </td>
+            <td class="table__cell table__cell--body table__cell--right">
+              29 Oct, 09:42, 2021
+            </td>
+            <td class="table__cell table__cell--body"></td>
+            <td class="table__cell table__cell--body table__cell--image">
+              <div class="status">
+                <img class="status__image" src="green.svg" alt="img" />
+                <span class="status__text">paid</span>
+              </div>
+            </td>
+            <td class="table__cell table__cell--body">Lian Oneil</td>
+            <td class="table__cell table__cell--body table__cell--body-right">
+              $ 49.00
+            </td>
+          </tr>
+
+          <tr class="table__row table__row--hover table__row--border">
+            <td class="table__cell table__cell--body table__cell--body-left">
+              #1012
+            </td>
+            <td class="table__cell table__cell--body table__cell--right">
+              28 Oct, 11:07, 2021
+            </td>
+            <td class="table__cell table__cell--body"></td>
+            <td class="table__cell table__cell--body table__cell--image">
+              <div class="status">
+                <img class="status__image" src="red.svg" alt="img" />
+                <span class="status__text">declined</span>
+              </div>
+            </td>
+            <td class="table__cell table__cell--body">Jason Schuller</td>
+            <td class="table__cell table__cell--body table__cell--body-right">
+              $ 199.00
+            </td>
+          </tr>
+
+          <tr class="table__row table__row--hover table__row--border">
+            <td class="table__cell table__cell--body table__cell--body-left">
+              #1011
+            </td>
+            <td class="table__cell table__cell--body table__cell--right">
+              27 Oct, 14:42, 2021
+            </td>
+            <td class="table__cell table__cell--body"></td>
+            <td class="table__cell table__cell--body table__cell--image">
+              <div class="status">
+                <img class="status__image" src="green.svg" alt="img" />
+                <span class="status__text">paid</span>
+              </div>
+            </td>
+            <td class="table__cell table__cell--body">Eva Calvert</td>
+            <td class="table__cell table__cell--body table__cell--body-right">
+              $ 49.00
+            </td>
+          </tr>
+
+          <tr class="table__row table__row--hover table__row--border">
+            <td class="table__cell table__cell--body table__cell--body-left">
+              #1010
+            </td>
+            <td class="table__cell table__cell--body table__cell--right">
+              26 Oct, 12:23, 2021
+            </td>
+            <td class="table__cell table__cell--body"></td>
+            <td class="table__cell table__cell--body table__cell--image">
+              <div class="status">
+                <img class="status__image" src="yellow.svg" alt="img" />
+                <span class="status__text">pending</span>
+              </div>
+            </td>
+            <td class="table__cell table__cell--body">Monroe Bond</td>
+            <td class="table__cell table__cell--body table__cell--body-right">
+              $ 199.00
+            </td>
+          </tr>
+
+          <tr class="table__row table__row--hover table__row--border">
+            <td class="table__cell table__cell--body table__cell--body-left">
+              #1009
+            </td>
+            <td class="table__cell table__cell--body table__cell--right">
+              26 Oct, 11:40, 2021
+            </td>
+            <td class="table__cell table__cell--body"></td>
+            <td class="table__cell table__cell--body table__cell--image">
+              <div class="status">
+                <img class="status__image" src="yellow.svg" alt="img" />
+                <span class="status__text">pending</span>
+              </div>
+            </td>
+            <td class="table__cell table__cell--body">Dustin Mock</td>
+            <td class="table__cell table__cell--body table__cell--body-right">
+              $ 199.00
+            </td>
+          </tr>
+
+          <tr class="table__row table__row--hover table__row--border">
+            <td class="table__cell table__cell--body table__cell--body-left">
+              #1008
+            </td>
+            <td class="table__cell table__cell--body table__cell--right">
+              26 Oct, 10:22, 2021
+            </td>
+            <td class="table__cell table__cell--body"></td>
+            <td class="table__cell table__cell--body table__cell--image">
+              <div class="status">
+                <img class="status__image" src="green.svg" alt="img" />
+                <span class="status__text">paid</span>
+              </div>
+            </td>
+            <td class="table__cell table__cell--body">Lauren Trujillo</td>
+            <td class="table__cell table__cell--body table__cell--body-right">
+              $ 69.00
+            </td>
+          </tr>
+
+          <tr class="table__row table__row--hover table__row--border">
+            <td class="table__cell table__cell--body table__cell--body-left">
+              #1007
+            </td>
+            <td class="table__cell table__cell--body table__cell--right">
+              25 Oct, 14:15, 2021
+            </td>
+            <td class="table__cell table__cell--body"></td>
+            <td class="table__cell table__cell--body table__cell--image">
+              <div class="status">
+                <img class="status__image" src="green.svg" alt="img" />
+                <span class="status__text">paid</span>
+              </div>
+            </td>
+            <td class="table__cell table__cell--body">Samara William</td>
+            <td class="table__cell table__cell--body table__cell--body-right">
+              $ 49.00
+            </td>
+          </tr>
+
+          <tr class="table__row table__row--hover table__row--border">
+            <td class="table__cell table__cell--body table__cell--body-left">
+              #1006
+            </td>
+            <td class="table__cell table__cell--body table__cell--right">
+              25 Oct, 14:15, 2021
+            </td>
+            <td class="table__cell table__cell--body"></td>
+            <td class="table__cell table__cell--body table__cell--image">
+              <div class="status">
+                <img class="status__image" src="red.svg" alt="img" />
+                <span class="status__text">declined</span>
+              </div>
+            </td>
+            <td class="table__cell table__cell--body">Andy Hope</td>
+            <td class="table__cell table__cell--body table__cell--body-right">
+              $ 69.00
+            </td>
+          </tr>
+
+          <tr class="table__row table__row--hover">
+            <td
+              class="table__cell table__cell--body table__cell--body-left table__cell--radius-left"
+            >
+              #1005
+            </td>
+            <td class="table__cell table__cell--body table__cell--right">
+              24 Oct, 17:11, 2021
+            </td>
+            <td class="table__cell table__cell--body"></td>
+            <td class="table__cell table__cell--body table__cell--image">
+              <div class="status">
+                <img class="status__image" src="green.svg" alt="img" />
+                <span class="status__text">paid</span>
+              </div>
+            </td>
+            <td class="table__cell table__cell--body">Karen Rose</td>
+            <td
+              class="table__cell table__cell--body table__cell--body-right table__cell--radius-right"
+            >
+              $ 199.00
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
